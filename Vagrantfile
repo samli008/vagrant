@@ -33,4 +33,5 @@ Vagrant.configure(2) do |config|
       config.vm.network :public_network, ip: opts[:eth0]
     end
   end
+  config.vm.provision "shell", privileged: true, path: "./setup.sh"
 end

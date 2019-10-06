@@ -1,0 +1,26 @@
+# create virtualbox work directory
+mkdir box and cd box
+
+# create box from cloud image
+vagrant box add c74 c74.box
+vagrant box list
+vagrant box remove c74
+
+# initialization box and create Vagrantfile
+vagrant init c74
+
+# create vm with Vagrantfile
+vagrant up
+
+# view vm with vagrant
+vagrant status
+
+# access vm with vagrant
+vagrant ssh vm_name
+
+# stop vm with vagrant
+vagrant halt
+
+# destroy vm with vagrant
+vagrant destroy
+
