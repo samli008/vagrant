@@ -1,7 +1,7 @@
 #/bin/sh
 
 # install some tools
-sudo yum install -y wget lrzsz screen ftp
+sudo yum install -y wget lrzsz screen ftp net-tools
 
 # install and start docker
 sudo yum install -y docker
