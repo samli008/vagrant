@@ -32,3 +32,9 @@ vagrant package
 
 # continue vm status from saved to running
 vagrant resume
+
+# management snapshot
+vagrant snapshot save snap1
+vagrant snapshot list
+vagrant snapshot restore snap1 
+vagrant snapshot delete snap1 
