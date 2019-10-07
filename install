@@ -29,3 +29,6 @@ vagrant reload
 
 # package current vm to new box
 vagrant package
+
+# continue vm status from saved to running
+vagrant resume
