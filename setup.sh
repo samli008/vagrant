@@ -7,6 +7,7 @@ sudo yum install -y wget lrzsz screen ftp net-tools
 sudo yum install -y docker
 sudo systemctl enable docker && sudo systemctl start docker
 
+sudo sed -i 's/SELINUX=enforcing/SELINUX=disabled/' /etc/selinux/config
 sudo setenforce 0
 
 sudo systemctl stop firewalld
