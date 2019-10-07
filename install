@@ -24,3 +24,8 @@ vagrant halt
 # destroy vm with vagrant
 vagrant destroy
 
+# reconfig with Vagrantfile
+vagrant reload
+
+# package current vm to new box
+vagrant package
